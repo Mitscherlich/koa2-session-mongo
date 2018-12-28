@@ -1,0 +1,27 @@
+sudo: false
+language: node_js
+node_js:
+  - "lts/*"
+services:
+  - mongodb
+branches:
+  only:
+  - master
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+install:
+  - yarn install --pure-lockfile
+
+script:
+  - npm run test
+
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_TOKEN
+  on:
+    tags: true

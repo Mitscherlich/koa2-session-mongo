@@ -1,0 +1,7 @@
+test.js
+.gitignore
+.travis.yml
+*.iml
+.idea
+.nyc_output
+npm-debug.log
