@@ -6,7 +6,7 @@ services:
   - mongodb
 branches:
   only:
-    - master
+    - dev
 
 cache:
   yarn: true
