@@ -12,7 +12,7 @@
 [travis-image]: https://img.shields.io/travis/Mitscherlich/koa2-session-mongo.svg?style=flat-square
 [travis-url]: https://travis-ci.org/Mitscherlich/koa2-session-mongo
 [codecov-image]: https://img.shields.io/codecov/c/github/Mitscherlich/koa2-session-mongo.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/Mitscherlich/koa2-session-mongo?branch=master
+[codecov-url]: https://codecov.io/github/Mitscherlich/koa2-session-mongo?branch=dev
 [david-image]: https://img.shields.io/david/Mitscherlich/koa2-session-mongo.svg?style=flat-square
 [david-url]: https://david-dm.org/Mitscherlich/koa2-session-mongo
 [snyk-image]: https://snyk.io/test/npm/koa2-session-mongo/badge.svg?style=flat-square
