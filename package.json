@@ -1,6 +1,6 @@
 {
   "name": "koa2-session-mongo",
-  "version": "0.0.1-rc.0",
+  "version": "0.1.0",
   "description": "MongoDB storage layer for Koa session middleware",
   "main": "index.js",
   "homepage": "https://github.com/Mitscherlich/koa2-session-mongo",
@@ -18,14 +18,14 @@
     "test": "npm run lint -- --fix && npm run test-local"
   },
   "dependencies": {
-    "mongodb": "^3.1.10"
+    "mongodb": "^3.6.4"
   },
   "devDependencies": {
-    "debug": "^4.1.1",
-    "eslint": "^5.11.1",
+    "debug": "^4.3.1",
+    "eslint": "^7.21.0",
     "expect.js": "^0.3.1",
-    "mocha": "^5.2.0",
-    "mongoose": "^5.4.1",
-    "nyc": "^13.1.0"
+    "mocha": "^8.3.0",
+    "mongoose": "^5.11.18",
+    "nyc": "^15.1.0"
   }
 }
