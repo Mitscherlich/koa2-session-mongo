@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "debug": "4.3.4",
-    "eslint": "8.43.0",
+    "eslint": "8.44.0",
     "expect.js": "0.3.1",
     "mocha": "10.2.0",
     "mongoose": "7.3.1",
